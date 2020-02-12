@@ -3,6 +3,12 @@
 
 A proposal for thread pool interface based on existing `future` API.
 
+### Example: basic
+Simple example to show the `Executor` trait in action. Uses two threadpools with seperated job queues.
+```
+cargo run --example basic
+```
+
 # Motivation
 [motivation]: #motivation
 
